@@ -7377,3 +7377,10 @@ del {
 .service-card>.inner>.content>.title:hover{
     text-shadow: 4px 6px 12px rgba(0,0,0,0.6);
 }
+
+.profile-img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border: 4px solid #e0e0e0; /* Light gray border */
+  }
