@@ -169,3 +169,36 @@
 .service-card>.inner>.content>.title:hover{
     text-shadow: 4px 6px 12px rgba(0,0,0,0.6);
 }
+
+.course-card{
+    height: 100%;    
+    padding: 20px;    
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background: #c054ff;
+    background: linear-gradient(90deg,#c054ff 0%, #5274ff 100%);
+    background: -webkit-linear-gradient(90deg, #c054ff1c 0%, #5274ff54 100%);
+    background: -moz-linear-gradient(90deg,#c054ff 0%, #5274ff 100%);
+    transform: scale(1.1);
+    transition: all 0.7s;
+    box-shadow: 9px 9px 29px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 9px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 9px 29px 0px rgba(0,0,0,0.75);
+}
+
+.course-card>.inner>.icon>img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.course-card>.inner>.icon>img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.course-card>.inner>.content>.title:hover{
+    text-shadow: 4px 6px 12px rgba(0,0,0,0.6);
+}
